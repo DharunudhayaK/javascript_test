@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>JAVASCRIPT</h1>
+    <header id="headSection">
+        <p class="headTitle">Note-Taking App</p>
+        <button class="buttonLabel">Refer here!</button>
+    </header>
+
+    <section id="sectionOuter">
+        <h1 class="noteStyle">Note-Taking App</h1>
+        <form class="formLabel">
+            <label for="name">Title</label>
+            <input type="text" placeholder="enter title" class="inputBoxA" id="inputBox" required>
+
+            <label for="text">Content</label>
+            <textarea name="text" placeholder="enter description" class="inputBoxA" id="contentLabel"
+                required></textarea>
+
+            <button id="buttonContainer" class="btnStyle">Save</button>
+        </form>
+        <div id="blurDiv"></div>
+        <div id="empDiv"></div>
+    </section>
     <script type="module" src="app.js"></script>
 </body>
+
 </html>

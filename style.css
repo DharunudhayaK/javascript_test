@@ -1,0 +1,105 @@
+#sectionOuter{
+    border: 1px solid red;
+    width: 400px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+}
+
+.noteStyle{
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+
+.formLabel{
+    display: grid;
+    margin: 10px;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.btnStyle{
+    width: 150px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: 1px ;
+}
+
+.insideList{
+    text-align: center;
+    font-weight: bold;
+}
+
+.inputBoxA{
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.paraLabel{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+#headSection{
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-around;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.headTitle{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    letter-spacing: 1.7px;
+}
+
+.buttonLabel{
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* #empDiv{
+    border-radius: 5px;
+    padding: 15px;
+    width: 25%;
+    height: 50%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: #fff;
+    padding: 15px;
+    display: none;
+} */
+
+#blurDiv{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(152, 151, 151, 0.483);
+    z-index: 999;
+}
