@@ -47,13 +47,15 @@ btnContainer.onclick = ((event)=>{
     updateOption.setAttribute('class','updateButton')
     emptyDiv.appendChild(updateOption)
 
-    function updateNode(){
-        
-    }
+    deleteOption.onclick = (()=>{
+        mainTitleCreate.style.display = "none"
+        titleCreate.style.display = "none"
 
-    updateNode()
-
-
+        inputTitle.value.style.display = "none"
+        contentBox.value.style.display = "none"
+    })
+    
+    
 })
 
 closePopup.onclick = (()=>{
